@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/Yeucau2.css">
+    <title>Thao tác trên mảng</title>
+</head>
+<body>
+    <div id="title">
+        <h1>Thao tác trên mảng</h1>
+        <table>
+            <tr>
+                <td width="80px"><button class="createArray">Tạo mảng</button></td>
+                <td class="randomNumber"></td>
+            </tr>
+            <tr>
+                <td colspan="5" class="newrandomNumber">Giá trị mảng sau khi xử lý</td>
+            </tr>
+            <tr>
+                <td colspan="5">
+                    <input type="radio" id="sxtang" name="sapxep" value="Sắp xếp tăng dần">
+                    <label for="sxtang">Sắp xếp tăng</label>
+                    <input type="radio" id="sxgiam" name="sapxep" value="Sắp xếp giảm dần">
+                    <label for="sxtang">Sắp xếp giảm</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="5">
+                    <label for="">Thêm vào vị trí</label>
+                    <input type="number" id="vitriso" name="vitri" min="1" max="100">
+                    <label for="">Giá trị</label>
+                    <input type="number" name="value" id="addValue" min="1" max="100">
+                    <input type="submit" id="addBtn" value="Thêm">
+                </td>
+            </tr>
+        </table>
+    </div>
+    <script src="JS/Yeucau2.js"></script>
+</body>
+</html>
