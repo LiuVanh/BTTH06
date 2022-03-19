@@ -11,4 +11,9 @@ body {
 }
 #banner {
   margin-left: 450px;
+  margin-top: 5px;
+  font-size: 45px;
+}
+.blink_banner {
+  color: red;;
 }
