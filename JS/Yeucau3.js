@@ -1,4 +1,4 @@
-function tg() {
+function CurTime() {
   var d = new Date();
   var t = d.toLocaleTimeString();
   var hours = d.getHours();
@@ -17,5 +17,5 @@ function tg() {
   if (hours >= 17 && hours < 24)
     document.getElementById("banner").textContent = "Chào buổi tối";
 }
-setInterval(mytimer, 1000);
+setInterval(CurTime, 1000);
 
